@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<section class="animate_up">
+
+    <h4 class="section-title">{{ page.title }}</h4>
+
+    <div class="notes-unit">
+      <h5 class="notes-date">{{ page.date | date: "%b %-d, %Y" }} | {{ page.tags | join: ", " | upcase}}</h5>
+      <p>{{ content }}</p>
+    </div>
+
+</section>

@@ -1,0 +1,19 @@
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+host : localhost
+port : 4848
+
+
+# Defaults
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      tags: "untagged"

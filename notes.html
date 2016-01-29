@@ -1,0 +1,19 @@
+---
+
+layout : default
+title : Notes
+
+---
+
+{% for post in site.posts %}
+
+  <div class="notes-unit animate_up">
+    <h5 class="notes-date">{{ post.date | date: "%b %-d, %Y" }} | {{ post.tags | join: ", " | upcase}}</h5>
+    <a href="{{ post.url}}"><h4 class="notes-title">{{ post.title }}</h4></a>
+    <p>{{ post.excerpt }}</p>
+    <a href="{{ post.url}}"><p class="read-more">Read more ...</p></a>
+  </div>
+
+{% endfor %}
+
+{{ page-title }}

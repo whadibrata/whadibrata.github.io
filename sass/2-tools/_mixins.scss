@@ -1,0 +1,15 @@
+@mixin col($column) {
+  width: $column / 12 * 100%;
+}
+
+@mixin animateme($delay) {
+  animation-name: wait,show;
+  animation-duration: $delay, 1000ms;
+  animation-delay: 0ms, $delay;
+  animation-iteration-count: linear;
+}
+
+@mixin animates() {
+  animation-name: wait,show;
+  animation-iteration-count: linear;
+}

@@ -1,0 +1,31 @@
+.inline-anchor{
+  position: relative;
+  transition: all 200ms;
+
+  &::after{
+    content: '';
+    @include size(100%, 2px);
+    border-radius: 3px;
+    @include position(absolute, null 0 -3px 0);
+    margin: 0 auto;
+    background: $lightgreen;
+    transition: all 200ms;
+  }
+
+  &:hover::after{
+    background: lighten($lightgreen, 20%);
+  }
+}
+
+.read-more{
+  color: $blue;
+  transition: all 200ms;
+
+  &:hover{
+    color: lighten($blue, 20%);
+  }
+}
+
+.p-strong{
+  color: $dark;
+}

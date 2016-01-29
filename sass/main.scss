@@ -1,0 +1,19 @@
+// 1 - SETTINGS
+@import "1-settings/variables";
+
+// 2 - TOOLS
+@import "2-tools/bourbon/bourbon";
+@import "2-tools/grid-settings";
+@import "2-tools/neat/neat";
+@import "2-tools/fonts";
+@import "2-tools/normalize";
+@import "2-tools/mixins";
+
+// 4 - COMPONENTS
+@import "4-components/animation";
+
+// 5 - PAGES
+@import "5-pages/common";
+
+// 4 - COMPONENTS
+@import "4-components/notes";
