@@ -592,6 +592,7 @@ header {
       -ms-transform: translateY(0);
           transform: translateY(0);
   opacity: 1;
+  z-index: 999;
 }
 
 .section-title {
