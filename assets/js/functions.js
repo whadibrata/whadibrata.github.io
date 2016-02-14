@@ -32,7 +32,7 @@ function mobileMenu(){
       mobileMenu = $(".site-navigation-mobile-items"),
       isClicked = true;
 
-  menuIcon.click(function(){
+  menuIcon.on("click", function(){
     if (isClicked) {
       menuIcon.addClass("is-active");
       mobileMenu.addClass("is-active");
