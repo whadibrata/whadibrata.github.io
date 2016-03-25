@@ -6,7 +6,6 @@ date:   2016-03-25 10:10:37 +0200
 tags: markdown
 ---
 
-# How I ended up writing my notes in markdown (Draft)
 Back in the "past", I used to keep and write my notes with apps like Evernote, Google Keep, and many others. I kept changing back and forth between one note taking app to another. It was mainly because one particular app does not have a feature(s) that the other app does.  For instance, we can only write simple text in Google Keep unlike in Evernote where you can add lists, tables, checkbox, etc. I also fall into the category of someone who does care about the look of the app and I tend to spend more time with an app that looks gorgeous. Evernote is, for instance, looking more beautiful than Google Keep which is why I use Evernote more than others.
 
 For awhile I settled down with Evernote as it gave me almost all the things that I needed. A note taking app that does not have only basic feature of note writing. One great thing about Evernote is that it is available in many platforms. You have a native apps in Windows, OS X, iOS and Android as well as online Evernote. What this basically means is that you can write a note wherever and whenever you need to. It is most convenient at a time when I need to take down a note on a random occasion. I just need to pull out my phone and write everything that comes to mind
